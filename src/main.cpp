@@ -17,7 +17,10 @@
     #include <endian.h>
 #endif
 
-#include "midifuncs.cpp"
+#include "midifuncs.h"
+
+
+
 
 int main(int argc, char *argv[]) {
     std::string testfile = "in.mid";
