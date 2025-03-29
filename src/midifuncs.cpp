@@ -75,7 +75,7 @@ std::string getMIDIMeta(const MIDIChunk& chunk, uint8_t metaType) {
         return txtbuffer;
     }
     default:
-        std::cerr << "invalid id thinger thing";
+        std::cerr << "invalid id thinger thing\n";
         return "error";
     }
 }
